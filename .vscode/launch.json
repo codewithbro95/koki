@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:koki}",
+            "name": "Debug koki",
+            "target": "koki",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug koki"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:koki}",
+            "name": "Release koki",
+            "target": "koki",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release koki"
+        }
+    ]
+}
