@@ -1,4 +1,4 @@
-# koki
+# 🌮 koki
 
 `koki` is a native macOS menu bar app that reads selected text aloud from anywhere in macOS.
 
