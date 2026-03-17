@@ -78,7 +78,7 @@ final class AppState: ObservableObject {
     }
 
     func checkForUpdates() {
-        guard let url = URL(string: "https://github.com/your-org/koki/releases") else { return }
+        guard let url = URL(string: "https://github.com/codewithbro95/koki") else { return }
         NSWorkspace.shared.open(url)
     }
 

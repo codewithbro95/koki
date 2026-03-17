@@ -28,28 +28,4 @@ swift run
 - Click `Request Accessibility Permission`
 - Enable `koki` in System Settings -> Privacy & Security -> Accessibility
 
-For voices, `koki` uses the system voices listed in macOS. If none appear, install one in:
-
-- System Settings -> Accessibility -> Spoken Content -> System Voice
-
-## Update URL
-
-By default, `Check for Updates` opens:
-
-`https://github.com/your-org/koki/releases`
-
-Change it in:
-
-- `Sources/koki/AppState.swift`
-
-## Key Files
-
-- `Package.swift`
-- `Sources/koki/KokiApp.swift`
-- `Sources/koki/AppState.swift`
-- `Sources/koki/HotKeyManager.swift`
-- `Sources/koki/SelectedTextReader.swift`
-- `Sources/koki/SpeechService.swift`
-- `Sources/koki/SettingsView.swift`
-- `Sources/koki/AppSettings.swift`
-- `Sources/koki/Models.swift`
+For voices, `koki` uses the system voices listed in macOS.
