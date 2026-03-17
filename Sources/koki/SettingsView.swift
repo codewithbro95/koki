@@ -216,6 +216,10 @@ private struct AboutSettingsView: View {
                 }
             }
 
+            Text(AppVersion.displayString)
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+
             Text("Status: \(model.appState.lastStatus)")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)

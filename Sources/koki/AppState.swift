@@ -94,6 +94,8 @@ final class AppState: ObservableObject {
         )
         NSApp.orderFrontStandardAboutPanel(options: [
             .applicationIcon: icon,
+            .applicationVersion: AppVersion.marketing,
+            .version: AppVersion.build,
             .credits: credits
         ])
     }
